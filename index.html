@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html>
+    <style>
+        th{
+            width: 100px;
+        }
+        .space{
+            width: 50px;
+            background-color: white;
+        }
+        .choice1{
+            background-color: aquamarine;
+        }
+        .choice2{
+            background-color: aqua;
+        }
+        #table1{
+            visibility: visible;
+        }
+        #table2{
+            visibility: hidden;
+        }
+        #table3{
+            visibility: hidden;
+        }
+    </style>
+<head><h1>GameQuestAdventure 2: Director's Cut</h1></head>
+<body>
+    <p id="output">You awake in darkness, what would you like to do?</p>
+    <table id="table1">
+        <th id="flail" class="choice1">Flail about</th>
+        <th class="space"></th>
+        <th id="pocket" class="choice2">Check your pockets</th>
+    </table>
+   <table id="table2">
+    <th id="flask" class="choice1">Drink the liquid</th> 
+    <th class="space"></th>
+    <th id="flashlight" class="choice2">Use the flashlight</th>
+       </table>
+    <table id="table3">
+    <th id="wood" class="choice1">Go through the wooden door</th> 
+    <th class="space"></th>
+    <th id="steel" class="choice2">Go through the steel door</th>
+       </table>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="/TheWorks.js"></script>
+</body>
+    
+</html>
